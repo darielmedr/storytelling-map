@@ -1,0 +1,32 @@
+@import "colors.scss";
+
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: $primary-color;
+  box-shadow: 0px 5px 15px 5px #8d8d8d;
+
+  .links {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+
+    .link {
+      height: 100%;
+
+      a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: $text-color-100;
+
+        &:hover {
+          color: $text-color-300;
+        }
+      }
+    }
+  }
+}

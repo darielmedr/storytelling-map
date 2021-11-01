@@ -1,0 +1,14 @@
+.landing-page {
+    width: 100%;
+    height: calc(100vh - var(--navbar-height) - var(--main-padding-top));
+    display: grid;
+    place-content: center;
+    gap: 5rem;
+    text-align: center;
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

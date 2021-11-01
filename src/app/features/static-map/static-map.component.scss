@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+
+    &__map {
+        position: fixed;
+        left: 0;
+        top: calc(var(--navbar-height) + var(--main-padding-top));
+        height: calc(100vh - var(--navbar-height) - var(--main-padding-top));
+        width: max(20%, 15rem);
+    }
+
+    &__story {
+        margin-left: max(20%, 15rem);
+    }
+}
